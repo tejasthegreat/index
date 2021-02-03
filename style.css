@@ -1,0 +1,35 @@
+body{
+    color: aqua;
+    text-align: center;
+    background-image: linear-gradient(rgb(255, 0, 191), rgb(38, 0, 255));
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    padding: 50px;
+    font-size: larger;
+}
+form button{ 
+    padding: 20px;
+    border: black solid 3px;
+    border-radius: 20%;
+    text-align: center;
+    background-color: chartreuse;
+
+}
+form{
+    padding: 20px;
+  
+    margin-top: 200px;
+  
+    border: solid green 3px;
+    width: 100px;
+}
+.form{
+    margin: 200px;
+    
+   
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+form button:hover{
+    background-color:yellow;
+}
